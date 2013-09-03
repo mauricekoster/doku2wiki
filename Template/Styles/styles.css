@@ -1,0 +1,147 @@
+body { font: 80% Verdana,Lucida,Helvetica,Arial,sans-serif; }
+
+/* *** HEADINGS *** */
+
+h1, h2, h3, h4, h5 {
+background-color:inherit;
+border-bottom:1px solid #8CACBB;
+clear:left;
+color:#000000;
+font-size:100%;
+font-weight:normal;
+margin:0 0 1em;
+padding:0.5em 0 0;
+}
+
+h1 {
+font-size:160%;
+font-weight:bold;
+margin-left:0;
+}
+
+h2 {
+font-size:150%;
+margin-left:20px;
+}
+
+h3 {
+font-size:130%;
+margin-left:40px;
+}
+h4 {
+font-size:120%;
+margin-left:60px;
+}
+h5 {
+font-size:110%;
+margin-left:80px;
+}
+
+/* *** LISTS *** */
+ul {
+color:#638C9C;
+line-height:1.5em;
+list-style-image:none;
+list-style-type:square;
+margin:0 0 1em 3.5em;
+}
+
+.li {
+color:#000000;
+font-weight:normal;
+}
+
+/* *** SECTIONS *** */
+
+div.level1 {
+margin-left:3px;
+}
+
+div.level2  {
+margin-left:23px;
+}
+
+div.level3  {
+margin-left:43px;
+}
+div.level4  {
+margin-left:63px;
+}
+div.level5  {
+margin-left:83px;
+}
+
+/* *** CODE BLOCKS *** */
+
+pre {
+	border: 1px dashed #8CACBB;
+	color: #000000;
+	font-size: 120%;
+	overflow: auto;
+	padding: 0.5em;
+}
+
+pre.code {
+	background-color: #f7f9fa;
+	
+}
+
+pre.file {
+	background-color: #dee7ec;
+}
+
+/* *** LINKS *** */
+a:link, a:visited  {
+	text-decoration: none;
+}
+
+a.wikilink1 {
+	color: #009900;
+}
+
+/* *** TABLES *** */
+
+table {
+	font-size: 100%;
+	margin: 0 0 1em;
+}
+
+table.inline {
+	background-color: #ffffff;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+table.inline th {
+	background-color: #dee7ec;
+	border: 1px solid #8cacbb;
+	padding: 3px;
+}
+
+table.inline td {
+	border: 1px solid #8cacbb;
+	padding: 3px;
+}
+
+/* *** TEXT ALIGNMENTS *** */
+
+.leftalign {
+	text-align: left;
+}
+
+/* *** Footnotes *** */
+div.footnotes {
+  clear: both;
+  border-top: 1px solid #8CACBB;
+  padding-left: 1em;
+  margin-top: 3em;
+  margin-bottom: 0.5em;
+}
+
+div.fn {
+  font-size: 70%;
+}
+
+a.fn_bot {
+  font-weight: bold;
+}
