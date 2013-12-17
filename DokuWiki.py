@@ -6,6 +6,7 @@ Created on 17 dec. 2013
 from urllib import urlencode, splittype, splithost, unquote
 import sys
 import base64
+import urllib
 
 try:
     #import xmlrpclib_new as xmlrpclib
